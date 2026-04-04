@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { WeddingBandFeatureSelector } from './WeddingBandFeatures';
+import { IconButton } from './components/image-display-group/icon-button';
 
 function WeddingBandFeatures() {
 
@@ -73,6 +74,7 @@ function App() {
         </a>
         <br></br>
         <MyYesButton></MyYesButton>
+        <IconButton></IconButton>
         <br></br>
         <WeddingBandFeatures></WeddingBandFeatures>
       </header>
